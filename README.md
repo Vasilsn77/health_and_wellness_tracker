@@ -49,6 +49,28 @@ A Flask-based web application that helps users track their physical and mental h
 
 ---
 
+## File Structure
+- `health-wellness-tracker/`
+  - `app.py`: Main Flask application containing routes and logic.
+  - `templates/`: HTML templates for rendering views.
+    - `index.html`: Homepage template.
+    - `register.html`: User registration page.
+    - `login.html`: User login page.
+    - `dashboard.html`: User dashboard displaying health metrics.
+    - `mental_health_check.html`: Form to log mental health data.
+    - `mental_health_history.html`: View past mental health entries.
+    - `exercise_log.html`: Form to log exercise details.
+    - `exercise_history.html`: View exercise history and statistics.
+    - `goals.html`: Manage user health and fitness goals.
+    - `friends.html`: View and manage friend connections.
+    - `add_friend.html`: Add a friend by email.
+  - `static/`: Static assets for styling and interactivity.
+    - `css/`: Stylesheets for the application.
+      - `style.css`: Custom CSS for layout and design.
+    - `js/`: JavaScript files for frontend functionality.
+      - `scripts.js`: Custom JavaScript for interactivity.
+---
+
 ## Installation
 1. **Clone the Repository**
    ```bash
